@@ -42,9 +42,7 @@ def start_notify_progress(chat_id, message, bot):
 def main():
     load_dotenv()
     TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-    TG_CHAT_ID = os.environ["TG_CHAT_ID"]
     bot = ptbot.Bot(TELEGRAM_TOKEN)
-    bot.send_message(TG_CHAT_ID, "Бот запущен")
     bot.reply_on_message(start_notify_progress, bot=bot)
     bot.run_bot()
 
