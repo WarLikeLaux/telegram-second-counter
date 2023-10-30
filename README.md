@@ -21,12 +21,12 @@
 
 ## Features
 
-- **Visual Progress Indicator:** With the `render_progressbar` function, users get a graphical representation of the remaining time.
-- **Real-time Notifications:** The `notify_progress` function updates the timer message in the chat, providing the current progress and sends a message when the time is up.
-- **Pytimeparse Integration:** Allows users to set time in various formats, e.g., "2h15m" or "90s".
-- **Modularity and Clean Code:** Functions like `start_notify_progress` and `notify_progress` ensure clarity and ease of code perception.
-- **Integration with ptbot library:** For convenient interaction with the Telegram API.
-- **Environment Variable Usage:** Secure API key storage using `dotenv`.
+- **Visual Progress Indicator:** with the `render_progressbar` function, users get a graphical representation of the remaining time.
+- **Real-time Notifications:** the `notify_progress` function updates the timer message in the chat, providing the current progress and sends a message when the time is up.
+- **Pytimeparse Integration:** allows users to set time in various formats, e.g., "2h15m" or "90s".
+- **Modularity and Clean Code:** functions like `start_notify_progress` and `notify_progress` ensure clarity and ease of code perception.
+- **Integration with ptbot library:** for convenient interaction with the Telegram API.
+- **Environment Variable Usage:** secure API key storage using `dotenv`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
