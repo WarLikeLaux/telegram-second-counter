@@ -41,8 +41,8 @@ def start_notify_progress(chat_id, message, bot):
 
 def main():
     load_dotenv()
-    TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-    bot = ptbot.Bot(TELEGRAM_TOKEN)
+    telegram_token = os.environ["TELEGRAM_TOKEN"]
+    bot = ptbot.Bot(telegram_token)
     bot.reply_on_message(start_notify_progress, bot=bot)
     bot.run_bot()
 
